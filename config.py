@@ -4,4 +4,4 @@ custompass = "kishoresonti"
 customdb = "employee"
 custombucket = "ademployee"
 customregion = "us-east-2b"
-
+customtable = "employee_image_table"
