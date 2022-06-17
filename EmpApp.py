@@ -155,7 +155,7 @@ def FetchData():
 
     return render_template("GetEmpOutput.html", id=output["reg_id"], fname=output["full_name"],
                            cname=output["cert_name"], verificationnum=output["veri_num"], specilization=output["spl_name"],
-                           image_url=image_url)
+                           pdf_url=pdf_url)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=80,debug=True)
